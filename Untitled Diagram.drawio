@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T14:50:28.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.7" etag="1DCfXNndP9pNzbOTlw0f" type="github"><diagram id="fFTh142MeSV6YrFauBV7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-16T08:42:19.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="4vHgVSxHhI9Kgqvyci8G" version="14.4.7" type="github">
+  <diagram id="fFTh142MeSV6YrFauBV7" name="Page-1">
+    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3EJBCnhoY97piAiwWyH8-8" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="3EJBCnhoY97piAiwWyH8-1" target="3EJBCnhoY97piAiwWyH8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-1" value="Dashboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3EJBCnhoY97piAiwWyH8-2" target="3EJBCnhoY97piAiwWyH8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-12" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="3EJBCnhoY97piAiwWyH8-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-3" value="App/Function in Azure" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-10" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="3EJBCnhoY97piAiwWyH8-6" target="3EJBCnhoY97piAiwWyH8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-6" value="Azure Identity Platform: Additional Access policies&lt;br&gt;MFA integrated" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="588" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-9" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="3EJBCnhoY97piAiwWyH8-7" target="3EJBCnhoY97piAiwWyH8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3EJBCnhoY97piAiwWyH8-7" value="Azure registered app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="On behalf of actor" placeholders="1" name="Variable" id="3EJBCnhoY97piAiwWyH8-11">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="430" y="220" width="110" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="MFA verification" placeholders="1" name="Variable" id="3EJBCnhoY97piAiwWyH8-14">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="330" y="160" width="110" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
